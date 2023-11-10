@@ -1,4 +1,4 @@
-# MIADDespliegueSoluciones
+# MIAD Despliegue de soluciones analíticas - Proyecto
 
 ## Resumen
 Las fallas no técnicas son un problema común en la distribución de energía, especialmente en países en desarrollo. Este proyecto esta enfocado en desarrollar un modelo de riesgo para detectar a los clientes que cometen fraude energético. El objetivo es prevenir pérdidas y mejorar la prestación de servicios combinando el aprendizaje supervisado y no supervisado, utilizando algoritmos de clustering y técnicas de aprendizaje automático para predecir la probabilidad de fraude.
