@@ -1,0 +1,5 @@
+outs:
+- md5: 91eb340c8dabe3c1368987e1fa48ce5c
+  size: 19687320
+  hash: md5
+  path: datosv2_clean.csv
