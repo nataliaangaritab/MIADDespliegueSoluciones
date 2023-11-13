@@ -102,6 +102,30 @@ def generate_control_card():
                     ),
                     
                 ],
+            ),
+            
+            html.Br(),
+            
+            html.P("Seleccionar Categoria:"),
+
+            # Dropdown Categoria
+            html.Div(
+                id="componente-categoria",
+                children=[
+                    html.Div(
+                        id="componente-categorias",
+                        children=[
+                            dcc.Dropdown(
+                                id="dropdown-categorias",
+                                #options=[{'label':i, 'value':i} for i in df['ID_REGION'].unique()],
+                                #value = 1
+                                #style=dict(width='50%', display="inline-block")
+                            )
+                        ],
+                        style=dict(width='20%')
+                    ),
+                    
+                ],
             )
      
         ]
@@ -148,8 +172,9 @@ app.layout = html.Div(
 
 @app.callback(Output(component_id="graphs", component_property="figure"),
               Input(component_id="dropdown-regiones", component_property="value"),
-              Input(component_id="dropdown-usuarios", component_property="value"))
-def update_graph(region, usuario):
+              Input(component_id="dropdown-usuarios", component_property="value"),
+              Input(component_id="dropdown-categorias", component_property="value"))
+def update_graph(region, usuario, categoria):
     df_region = df.loc[df['ID_REGION'] == region]
     count = df_region.shape[0]
     fig = make_subplots(rows=1, cols=2, specs=[[{"type": "xy"},{"type": "pie"}]],subplot_titles=(
