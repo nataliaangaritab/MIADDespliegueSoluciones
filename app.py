@@ -1,4 +1,3 @@
-pip install flask==2.1.0
 import dash
 from dash import Dash
 from dash import dcc
@@ -247,7 +246,7 @@ app.layout = html.Div(
 
 
 # Cargar el modelo
-rf = joblib.load(os.getcwd() + '\Modelo_energy.pkl')
+rf = joblib.load(os.getcwd() + '/Modelo_energy.pkl')
 
 @app.callback(Output(component_id="graphs", component_property="figure"),
               Output(component_id="CONSUMO_PROMEDIO", component_property="value"),
