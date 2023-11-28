@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/dvc-proj/mlruns/484212001080477169/2e76e0109d6344b2ae3e2a7591b010d3/artifacts
+end_time: 1699822512581
+entry_point_name: ''
+experiment_id: '484212001080477169'
+lifecycle_stage: active
+run_id: 2e76e0109d6344b2ae3e2a7591b010d3
+run_name: gentle-foal-23
+run_uuid: 2e76e0109d6344b2ae3e2a7591b010d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699822473099
+status: 3
+tags: []
+user_id: ubuntu

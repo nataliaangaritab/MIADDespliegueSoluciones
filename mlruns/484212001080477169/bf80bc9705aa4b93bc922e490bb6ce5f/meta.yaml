@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/dvc-proj/mlruns/484212001080477169/bf80bc9705aa4b93bc922e490bb6ce5f/artifacts
+end_time: 1699822190217
+entry_point_name: ''
+experiment_id: '484212001080477169'
+lifecycle_stage: active
+run_id: bf80bc9705aa4b93bc922e490bb6ce5f
+run_name: luminous-crow-67
+run_uuid: bf80bc9705aa4b93bc922e490bb6ce5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699822167287
+status: 3
+tags: []
+user_id: ubuntu
